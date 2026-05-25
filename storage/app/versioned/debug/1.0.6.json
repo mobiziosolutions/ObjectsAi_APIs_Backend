@@ -106,7 +106,7 @@
       "imageUrl": "https://i.ibb.co/k6Bn1vtZ/sketch.png"
     }
   ],
-  "precheck": true,
+  "precheck": false,
   "imgTransport": "imgbb",
   "promoMode": false,
   "promoDays": 1,
