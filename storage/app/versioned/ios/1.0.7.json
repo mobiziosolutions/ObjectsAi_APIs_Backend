@@ -8,7 +8,7 @@
         "object_name": "",
         "base64": false,
         "webhook": null,
-        "safety_checker": false
+        "safety_checker": true
       }
     },
     "enterprise": {
@@ -107,7 +107,7 @@
     }
   ],
   "imgTransport": "imgbb",
-  "precheck": false,
+  "precheck": true,
   "promoMode": false,
   "promoDays": 1,
   "freeLimits": {
