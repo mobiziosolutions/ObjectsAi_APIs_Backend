@@ -8,7 +8,7 @@
         "object_name": "",
         "base64": false,
         "webhook": null,
-        "safety_checker": true
+        "safety_checker": false
       }
     },
     "enterprise": {
