@@ -107,7 +107,7 @@
     }
   ],
   "imgTransport": "imgbb",
-  "precheck": true,
+  "precheck": false,
   "promoMode": false,
   "promoDays": 1,
   "freeLimits": {
