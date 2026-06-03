@@ -12,21 +12,25 @@ jobs:
 
     steps:
       - name: 📥 Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: 🔒 FTP Deploy
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.SERVER }}
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
-          protocol: ftp
+          protocol: ftps
           port: 21
           local-dir: ./
           server-dir: ${{ secrets.TARGET_DIR }}
+          timeout: 60000
           exclude: |
             **/.git*
+            **/.git*/**
             **/.env
             **/node_modules/**
+            **/vendor/**
             **/tests/**
+            **/storage/logs/**
           dry-run: false
