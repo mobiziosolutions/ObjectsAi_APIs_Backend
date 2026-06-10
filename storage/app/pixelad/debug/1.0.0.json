@@ -20,8 +20,19 @@
         "aspect_ratio": "",
         "model_id": "seedream-5-lite-i2i"
       }
+    },
+    "nano-banana": {
+      "baseUrl": "https://modelslab.com/api/v7/images/image-to-image",
+      "params": {
+        "key": "KCjRGNpfJnDsVX67ycms86Gi5UTYaoERXVrqJ1cUvb4AnN7wCuskydjAUN21",
+        "prompt": "",
+        "init_image": [],
+        "aspect_ratio": "",
+        "resolution": "1K",
+        "model_id": "nano-banana"
+      }
     }
   },
-  "apiProvider": "seedream",
+  "apiProvider": "nano-banana",
   "freeLimits": 2
 }
